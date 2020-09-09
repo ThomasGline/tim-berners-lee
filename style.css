@@ -26,11 +26,11 @@ body{
 .box2{
     background-color: rgb(255, 255, 255);
     margin-bottom: 2.5%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 33%;
     border-radius: 5px;
     box-shadow: 1px 1px 2px 1px rgb(197, 197, 197);
     line-height: 2em;
@@ -77,9 +77,29 @@ h1{
 h2{
     text-align: center;
 }
-ul li{
+ul{
     display: flex;
     float: left;
     text-align: center;
     padding-right: 21%;
+    list-style: none;
+}
+li{
+    padding-right: 50%;
+}
+a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+a:hover{
+    color: rgb(131, 131, 131);
+}
+span{
+    background-color: rgb(197, 197, 197);
+}
+.pright{
+    float: right;
+}
+p{
+    font-size: 20px;
 }
