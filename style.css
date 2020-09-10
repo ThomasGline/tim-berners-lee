@@ -135,3 +135,39 @@ p{
 h3{
     text-align: center;
 }
+
+
+
+
+
+
+#film{
+    display: flex;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.boite1{
+    width: 21.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;
+}
+.boite2{
+    width: 75%;
+}
+.boite3{
+    width: 21.5%;
+    padding-right: 2.5%;
+    padding-top: 3%;
+}
+.boite4{
+    width: 75%;
+}
+.boite5{
+    width: 21.5%;
+    padding-right: 2.5%;
+    padding-top: 10%;
+}
+.boite6{
+    width: 75%;
+}
